@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk Management Dashboard </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Risk Management Dashboard </h1>
+    </header>
+
+    <main>
+        
+        <div id="riskDashboard"></div>
+        <form id ="riskForm">
+            
+            <label for= "riskName"> Name of Risk: </label>
+            <input type = "text" id = "riskName" placeholder="Name of Risk" required > <br>
+            <br>
+            <label for= "riskLevel"> Risk Level </label>
+            <select id = "riskLevel" >
+                <option value = "low" > Low </option>
+                <option value = "medium" > Medium </option>
+                <option value = "high" > High </option> 
+            </select>
+            <input type = "text" id = "department" placeholder="Department" required >
+            <button type = "submit"> Add Risk</button>
+            <button id="increaseRisk">Increase Risk Level</button>
+        </form>
+        
+    </main>
+
+    <footer>
+        <p> Risk Management</p>
+    </footer>
+
+    <script src="cc_15.js"></script>
+</body>
+</html>
